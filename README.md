@@ -7,3 +7,6 @@ THe first row should be the key that you wish to associate with the tag.
 Any subsequent row will be the value associated with the key on the first row.
 This program can only tag VM's that the Azure Account has access too. 
 When you log in, make sure your user account has suffifcient privileges.
+
+## AutoTag.ps1 is for tagging VM's ONLY <h2>
+## AzureResourceTag.ps1 is for tagging resources that AREN'T VM's <h2>
