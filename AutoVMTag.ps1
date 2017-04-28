@@ -13,7 +13,7 @@ Login-AzureRmAccount
 $list = get-azurermvm |sort-object name
 
 #Read the Keys and values from csv
-$reader = [System.IO.File]::OpenText("C:\Users\CRCIMIT\Desktop\VM\tag.csv")
+$reader = [System.IO.File]::OpenText("tag.csv")
 $tags.clear()
 $reader.readLine()
 
