@@ -1,7 +1,7 @@
 # AzureTag
 Automatically tags VM's in Azure from a csv file
 
-The first column is used for ONLY the name of the VM that you wish to tag.
+The first column is used for ONLY the name of the resource that you wish to tag.
 
 Every other column is for the key-value pair.
 
