@@ -3,7 +3,7 @@ Login-AzureRmAccount
 #Get list of all the VM's
 $list = Get-AzureRmResource |sort-object name
 #Reads tags from csv file
-$reader = [System.IO.File]::OpenText("C:\Users\CRCIMIT\Desktop\VM\tag.csv")
+$reader = [System.IO.File]::OpenText("tag.csv")
 $tags=@{}
 $tags.clear()
 $key=@()
